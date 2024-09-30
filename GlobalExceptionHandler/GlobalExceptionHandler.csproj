@@ -6,7 +6,26 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>RSN.SimpleGlobalExceptionHandler</Title>
+    <Description>Simple global exception handler for Web API applications with Localization support</Description>
+    <PackageProjectUrl>https://github.com/arsen1991/GlobalExceptionHandler</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/arsen1991/GlobalExceptionHandler</RepositoryUrl>
+    <PackageId>RSN.SimpleGlobalExceptionHandler</PackageId>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>GlobalExceptionHandler;ExceptionHandling;ErrorHandling;Middleware;ASP.NETCore;Logging;Diagnostics;ErrorManagement;ExceptionFilter;GlobalErrorHandler</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Serilog" Version="4.0.1" />
